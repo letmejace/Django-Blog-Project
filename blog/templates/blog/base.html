@@ -12,23 +12,23 @@
     <link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}">
 
     {% if title %}
-        <title>장고 블로그 - {{ title }}</title>
+        <title>JACE 블로그 - {{ title }}</title>
     {% else %}
-        <title>장고 블로그</title>
+        <title>JACE 블로그</title>
     {% endif %}
 </head>
 <body>
     <header class="site-header">
-        <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
           <div class="container">
-            <a class="navbar-brand mr-4" href="{% url 'blog-home' %}">장고 블로그</a>
+            <a class="navbar-brand mr-4" href="{% url 'blog-home' %}">JACE 블로그</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarToggle">
               <div class="navbar-nav mr-auto">
-                <a class="nav-item nav-link" href="{% url 'blog-home' %}">자유게시판</a>
-                <a class="nav-item nav-link" href="{% url 'blog-about' %}">About</a>
+                <a class="nav-item nav-link" href="{% url 'blog-home' %}">전체 글</a>
+                <a class="nav-item nav-link" href="{% url 'blog-about' %}">  About</a>
               </div>
               <!-- Navbar Right Side -->
               <div class="navbar-nav">
@@ -47,7 +47,7 @@
       </header>
       <main role="main" class="container">
         <div class="row">
-          <div class="col-md-8">
+          <div class="col-md-12">
             {% if messages %}
               {% for message in messages %}
                 <div class='alert alert-{{ message.tags }}'>
@@ -56,17 +56,6 @@
               {% endfor %}
             {% endif %}  
             {% block content %}{% endblock %}
-          </div>
-          <div class="col-md-4">
-            <div class="content-section">
-              <h3>  목록</h3>
-                <ul class="list-group">
-                  <li class="list-group-item list-group-item-light">최근 게시물</li>
-                  <li class="list-group-item list-group-item-light">공지사항</li>
-                  <li class="list-group-item list-group-item-light">달력</li>
-                  <li class="list-group-item list-group-item-light">기타</li>
-                </ul>
-            </div>
           </div>
         </div>
       </main>
