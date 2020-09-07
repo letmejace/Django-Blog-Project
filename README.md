@@ -13,6 +13,7 @@ Built with:
 - Python 
 - Django 
 - Bootstrap4
+- MySQL 
 
 ## Description
 
