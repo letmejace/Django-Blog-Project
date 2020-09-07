@@ -6,7 +6,7 @@ User can have the profile and own picture which can add what users want.
 
 And every users can post, update, delete. 
 
-If Users lost a password. It can be find to send an email that register by users  
+If users lost a password. It can be find to send an email that register by users  
 
 Built with:
 
