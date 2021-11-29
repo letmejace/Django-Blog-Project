@@ -7,7 +7,7 @@ Users can have a personal profile and register the pictures they want.
 And every users can post, update, delete.  
 
 If users lost a password. You can set a new password with an email that the user has registered.
-
+ 
 Built with:
 
 - Python 
