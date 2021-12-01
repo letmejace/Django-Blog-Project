@@ -10,7 +10,7 @@ If users lost a password. You can set a new password with an email that the user
  
 Built with:
 
-- Python 
+- Python  
 - Django 
 - Bootstrap4
 - MySQL 
