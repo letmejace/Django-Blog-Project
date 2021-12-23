@@ -1,7 +1,7 @@
 # Django-Blog-Project
  
 A Blog website with Django & Bootstrap4. There are several function in this website 🍕
-
+ 
 Users can have a personal profile and register the pictures they want.
 
 And every users can post, update, delete.  
