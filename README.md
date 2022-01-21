@@ -12,7 +12,7 @@ Built with:
 
 - Python  
 - Django 
-- Bootstrap4
+- Bootstrap4   
 - MySQL 
 
 ## Description
