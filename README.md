@@ -14,7 +14,7 @@ Built with:
 - Django 
 - Bootstrap4   
 - MySQL 
-
+  
 ## Description
 
 This is a Django-Blog website. it has a function below : 
